@@ -1,4 +1,5 @@
 import Header from "./Header"
+import taskImg3 from "../assets/images/task-img-3.jpg";
 
 
 const Features = () => {
@@ -29,10 +30,10 @@ const Features = () => {
 <section className="flex flex-col items-center justify-center px-6 py-12 bg-gray-50">
   {/* Centered Wide Image */}
   <img
-    src="/src/assets/images/task-img-3.jpg"
-    alt="Task Manager Illustration"
-    className="w-4/5 max-w-5xl h-auto rounded-lg shadow-lg object-cover"
-  />
+  src={taskImg3}
+  alt="Task Manager Illustration"
+  className="w-4/5 max-w-5xl h-auto rounded-lg shadow-lg object-cover"
+/>
 </section>
 
 

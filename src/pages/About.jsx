@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import Header from "./Header"
 
+import aboutImg from "../assets/images/about-img.avif";
+
 
 const About = () => {
   return (

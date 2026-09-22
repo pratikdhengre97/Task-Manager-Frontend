@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
 import Header from "./Header"
 
+import taskImg2 from "../assets/images/task-img2.jpg";
+import taskImg1 from "../assets/images/task-img-1.avif";
+
 const Hero = () => {
   return (
     <div>
@@ -36,19 +39,17 @@ const Hero = () => {
   <div className="flex flex-col md:flex-row items-center justify-center gap-8">
     {/* First Image */}
     <img
-      src="/src/assets/images/task-img-1.avif"
-      alt="Task Manager Illustration 1"
-      className="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg"
-      // className="w-full max-w-md rounded-lg shadow-lg object-contain"
-    />
+  src={taskImg1}
+  alt="Task Manager Illustration 1"
+  className="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg"
+/>
 
     {/* Second Image */}
     <img
-      src="/src/assets/images/task-img2.jpg"
-      alt="Task Manager Illustration 2"
-      className="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg"
-      // className="w-full max-w-md rounded-lg shadow-lg object-contain"
-    />
+  src={taskImg2}
+  alt="Task Manager Illustration 2"
+  className="w-full md:w-1/2 h-64 md:h-96 object-cover rounded-lg shadow-lg"
+/>
   </div>
 </section>
 
